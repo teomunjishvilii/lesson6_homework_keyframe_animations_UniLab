@@ -1,0 +1,32 @@
+body {
+    background-image: url("../images/resort.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skiing_man {
+    height: 60px;
+}
+
+.skier {
+    position: relative;
+    animation: move 10s infinite;
+}
+
+@keyframes move {
+    from {top: 130px; left: 100px;}
+    to {top: 800px; left: 600px;}
+}
+
+.moon {
+    width: 40px;
+}
+
+.moon_div {
+    margin-left: 1000px;
+    opacity: 0.5;
+}
+
+.moon_div:hover {
+    opacity: 1;
+}
