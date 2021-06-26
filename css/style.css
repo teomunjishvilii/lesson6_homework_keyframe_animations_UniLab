@@ -30,3 +30,9 @@ body {
 .moon_div:hover {
     opacity: 1;
 }
+
+.hover_text {
+    color: #fff;
+    font-size: 10px;
+    margin-left: 1000px;
+}
