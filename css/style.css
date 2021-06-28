@@ -8,16 +8,51 @@ body {
     height: 60px;
 }
 
-.skier {
+/* First skiing man */
+.skier_1 {
     position: relative;
-    animation: move 10s infinite;
+    animation: move_skier_1 15s infinite;
 }
 
-@keyframes move {
-    from {top: 130px; left: 100px;}
+@keyframes move_skier_1 {
+    0% {top: 130px; left: 80px;}
+    5% {top: 150px; left: 240px;}
+    10% {top: 200px; left: 100px;}
+    20% {top: 250px; left: 270px;}
+    30% {top: 300px; left: 200px;}
+    40% {top: 350px; left: 380px;}
+    50% {top: 400px; left: 250px;}
+    60% {top: 450px; left: 450px;}
+    70% {top: 500px; left: 270px;}
+    80% {top: 560px; left: 500px;}
+    85% {top: 620px; left: 350px;}
+    90% {top: 680px; left: 650px;}
+    100% {top: 800px; left: 350px;}
+}
+
+/* Second skiing man */
+.skier_2 {
+    position: relative;
+    animation: move_skier_2 10s infinite;
+}
+
+@keyframes move_skier_2 {
+    from {top: 100px; left: 200px;}
     to {top: 800px; left: 600px;}
 }
 
+/* Third skiing man */
+.skier_3 {
+    position: relative;
+    animation: move_skier_3 15s infinite;
+}
+
+@keyframes move_skier_3 {
+    from {top: 250px; left: 0px;}
+    to {top: 800px; left: 600px;}
+}
+
+/* Moon */
 .moon {
     width: 40px;
 }
