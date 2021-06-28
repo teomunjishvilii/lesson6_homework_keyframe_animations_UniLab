@@ -49,7 +49,7 @@ body {
 
 @keyframes move_skier_3 {
     from {top: 250px; left: 0px;}
-    to {top: 800px; left: 400px;}
+    to {top: 800px; left: 50px;}
 }
 
 /* Moon */
@@ -58,7 +58,7 @@ body {
 }
 
 .moon_div {
-    margin-left: 1000px;
+    margin-left: 1100px;
     opacity: 0.5;
 }
 
@@ -69,5 +69,5 @@ body {
 .hover_text {
     color: #fff;
     font-size: 10px;
-    margin-left: 1000px;
+    margin-left: 1100px;
 }
